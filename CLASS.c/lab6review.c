@@ -47,6 +47,17 @@ void reverse(int array[], int size)
     }
 }
 
+//void reverse(int array[], int size){
+  //  int temp = 0;
+    //for (int i=0; i < size; i++){
+      //  temp=array[i];
+        //if(i<size/2){
+          //  array[i] = array[size -1 -i];
+            //array[size - 1 - i] =temp;
+        }
+    }
+}
+
 int countChar(char ch,const char str[])
 {
     int chs=0;
