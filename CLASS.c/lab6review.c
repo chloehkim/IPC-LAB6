@@ -51,7 +51,7 @@ void reverse(int array[], int size)
   //  int temp = 0;
     //for (int i=0; i < size; i++){
       //  temp=array[i];
-        //if(i<size/2){
+        //if(i<size/2){  //우리는 반반 나눠서 스왑 하고 싶기때문에 이렇게 하삼.
           //  array[i] = array[size -1 -i];
             //array[size - 1 - i] =temp;
         }
