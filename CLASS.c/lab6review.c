@@ -44,7 +44,7 @@ void reverse(int array[], int size)
     {
         array[i]=temp[num--];
 
-    }
+    } //이거는 address efficient 면에서 안좋음... 아래 방법으로 한번 사용 해보삼.
 }
 
 //void reverse(int array[], int size){
