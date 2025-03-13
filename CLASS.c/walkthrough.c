@@ -33,6 +33,12 @@ int main(void)
 
     for(i=0; i <MAX; i++)
     {
+        printf("%s - %d, %d\n", salad[i].name, salad[i].stem, salad[i].leaves);
+    
+    } 
+    
+    for(i=0; i< MAX; i++)
+    {
         salad[i].leaves *=2;
         salad[i].stem +=3;
     }
