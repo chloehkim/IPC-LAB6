@@ -1,8 +1,8 @@
-#incloud <stdio.h>
+#include <stdio.h>
 
 struct Student
 {
-    int stduentNum;
+    int studentNum;
     float grades[4];
 };
 
@@ -13,7 +13,7 @@ int main(void)
 
     printf("%d\n", chloeInfo.studentNum);
     
-    for ( i=0, i < 4, i++;)
+    for ( i=0; i < 4; i++)
     { 
         printf("%.2f\n", chloeInfo.grades[i]);
     }
